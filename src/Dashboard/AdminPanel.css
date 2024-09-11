@@ -1,0 +1,32 @@
+/* AdminPanel.css */
+.admin-panel {
+    text-align: center;
+    padding: 20px;
+}
+
+.admin-panel h1 {
+    color: #333333;
+}
+
+.admin-panel p {
+    color: #666666;
+}
+
+.admin-buttons, .guest-buttons {
+    margin-top: 20px;
+}
+
+.admin-buttons button, .guest-buttons button {
+    background-color: #007bff;
+    border: none;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.admin-buttons button:hover, .guest-buttons button:hover {
+    background-color: #0056b3;
+}
