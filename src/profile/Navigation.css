@@ -1,0 +1,30 @@
+/* Navigation.css */
+nav {
+    background-color: #007bff; /* Primary color for the nav bar */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: space-around; /* Space out the items */
+}
+
+li {
+    font-size: 18px;
+    color: white; /* Text color */
+    background-color: rgba(255, 255, 255, 0.1); /* Light background for visibility */
+    padding: 10px 15px; /* Padding for spacing */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor for clickable items */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+}
+
+li:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Change background color on hover */
+    color: #ffd700; /* Change text color on hover */
+}

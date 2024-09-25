@@ -1,0 +1,27 @@
+/* Profile.css */
+.profile-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    text-align: center; /* Center the text */
+}
+
+.profile-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.profile-container p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.profile-container p.username {
+    font-weight: bold; /* Highlight username */
+    color: #007bff; /* Different color for username */
+}
